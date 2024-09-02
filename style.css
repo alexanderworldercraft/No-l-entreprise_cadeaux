@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -9999;
+    background: linear-gradient(60deg, #002085 0%, #0155cf 100%);
+}
+
+.lien-github {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: yellow;
+}
